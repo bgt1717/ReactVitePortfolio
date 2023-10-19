@@ -8,7 +8,7 @@ export default defineConfig({
   build: {
     // ...
     rollupOptions: {
-      input: 'src/main.js', // Your entry point
+      input: 'src/main.jsx', // Your entry point
     },
   },
   assetsInclude: ["**/*.JPG", "**/*.jpg"], // Add this line
