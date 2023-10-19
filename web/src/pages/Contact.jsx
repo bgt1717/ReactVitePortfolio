@@ -1,12 +1,13 @@
 import React, { useRef } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedinIn, faGithub } from '@fortawesome/free-brands-svg-icons'; // Import the LinkedIn and GitHub icons
 import './Contact.css';
 import emailjs from '@emailjs/browser';
 
 export const Contact = () => {
   const form = useRef();
   const linkedInLink = 'https://www.linkedin.com/in/bryce-townsend-426289237/';
+  const gitHubLink = 'https://github.com/bgt1717';
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -37,12 +38,17 @@ export const Contact = () => {
               <textarea name="message" />
               <input type="submit" value="Send" />
           </form>
-          <p>
-              Connect with me:{' '}
+          <div className="icons-container">
+            <span className="icon-space"></span> {/* Add this spacer */}
               <a href={linkedInLink} target="_blank" rel="noopener noreferrer">
-              <FontAwesomeIcon icon={faLinkedinIn} />
+                <FontAwesomeIcon icon={faLinkedinIn} />
               </a>
-          </p>
+              <span className="icon-space"></span> {/* Add this spacer */}
+              <a href={gitHubLink} target="_blank" rel="noopener noreferrer">
+                <FontAwesomeIcon icon={faGithub} />
+              </a>
+          </div>
+
       </div>
     </div>
   );
