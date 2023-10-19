@@ -1,0 +1,70 @@
+.projects-container-outer{
+    padding: 100px;
+    font-size: 30px;
+    background-color:  #666666;
+    font-family: Arial, sans-serif;
+    height: 330vh;
+    text-align: center;
+  
+}
+
+.projects-container{
+
+    padding: 50px;
+    background-color: #f0f0f0; /* Set your desired background color */
+    border-radius: 30px;
+    margin-left: 30px;
+    margin-right: 20px;
+    text-decoration: none;
+    border-style: solid;
+    
+    
+    
+    
+
+}
+/* .project{
+    /* border-style: dotted; */
+.atag{
+    text-decoration: none;
+    color:black;
+    background-color: grey;
+    padding: 20px;
+    border-radius: 10px;
+    border-style: solid;
+    width: 100%;
+    
+    
+}
+
+.img-container img{
+    width: 80%;
+    height: 20%;
+    border-radius: 20px;
+    margin-right: 10px;
+    border-color: black;
+    border-style: solid;
+    
+
+
+}
+.img-container2 img{
+    width: 40%;
+    height: 20%;
+    border-radius: 20px;
+    margin-right: 10px;
+    border-color: black;
+    border-style: solid;
+    
+
+
+}
+/* p.project-description 
+    /* border-style: solid;
+    border-radius: 10px;
+     */
+.description-container{
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}

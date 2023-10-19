@@ -1,0 +1,29 @@
+/* Toolbar.css */
+.Toolbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f0f0f0; /* Set a lighter background color */
+    text-align: center; /* Center the toolbar horizontally */
+    font-size: 20px;
+    z-index: 100; /* Adjust the z-index as needed */
+  }
+  
+  .Toolbar ul {
+    list-style-type: none; /* Remove bullets from the list items */
+    padding: 0; /* Remove default padding */
+    display: flex;
+    justify-content: center;
+    background-color: #f0f0f0; /* Match the background color of the toolbar */
+  }
+  
+  .Toolbar li {
+    margin: 0 10px; /* Add some spacing between items */
+  }
+  
+  /* Remove underline from links */
+  .Toolbar a {
+    text-decoration: none;
+    color: #333; /* Set your desired text color */
+  }

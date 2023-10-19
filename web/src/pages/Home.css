@@ -1,0 +1,51 @@
+.home-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    background-color:  #666666;
+    font-family: Arial, sans-serif;
+    font-size: 28px;
+    
+  }
+  
+  .info-container {
+    flex: 1;
+    padding: 50px;
+    background-color: #f0f0f0; /* Set your desired background color */
+    border-radius: 30px;
+    margin-left: 30px;
+    margin-right: 20px;
+    text-align: center;
+    border-style: solid;
+  }
+  
+.image-container {
+    flex: 1;
+    text-align: center;
+    
+  }
+  
+  .image-container img {
+    width: 80%;
+    height: 80%;
+    border-radius: 1000px;
+    margin-right: 10px;
+    border-style: solid;
+
+  }
+
+  .linkabout{
+    background-color: grey;
+    color:black;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    border-style: solid;
+    
+    
+
+
+  }
+  

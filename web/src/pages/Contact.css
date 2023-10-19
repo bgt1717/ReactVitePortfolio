@@ -1,0 +1,36 @@
+/* Update the CSS for the .contact class */
+.contact {
+    padding: 100px;
+    font-size: 30px;
+    background-color:  #666666;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+}
+.contact-container{
+    
+    padding: 50px;
+    background-color: #f0f0f0; /* Set your desired background color */
+    border-radius: 30px;
+    margin-left: 30px;
+    margin-right: 20px;
+    border-style: solid;
+  }
+
+/* Style the form elements within the .contact class */
+.contact form {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.contact form label {
+    margin-bottom: 10px;
+    
+}
+
+.contact form input,
+.contact form textarea {
+    padding: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}

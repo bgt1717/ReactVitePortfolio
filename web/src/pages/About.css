@@ -1,0 +1,22 @@
+.about-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    background-color:  #666666;
+    font-family: Arial, sans-serif;
+    font-size: 28px;
+}
+.about-section{
+    font-size: 35px;
+    padding:75px;
+    background-color: #f0f0f0;
+    border-radius: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-style: solid;
+    
+    
+
+}
