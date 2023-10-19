@@ -1,15 +1,19 @@
 /* In your CSS, Footbar.css, or a global CSS file */
 body {
-    margin-bottom: 60px; /* Adjust the margin as needed */
-  }
-  
-  .footbar {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background-color: #fff; /* Set the desired background color */
-    text-align: center;
-    padding: 10px; /* Add padding as needed */
-    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow effect */
-  }
+  margin-bottom: 60px; /* Adjust the margin as needed */
+}
+
+.footbar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff; /* Set the desired background color */
+  text-align: center;
+  padding: 10px; /* Add padding as needed */
+  box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow effect */
+}
+
+.icn-space{
+  margin: 0 2px; /* Adjust the margin as needed to control the spacing */
+}

@@ -1,22 +1,25 @@
-/* Update the CSS for the .contact class */
+/* Common styles for mobile layout */
 .contact {
-    padding: 100px;
-    font-size: 30px;
-    background-color:  #666666;
+    padding: 20px;
+    font-size: 20px;
+    background-color: #666666;
     font-family: Arial, sans-serif;
-    height: 100vh;
-}
-.contact-container{
-    
-    padding: 50px;
-    background-color: #f0f0f0; /* Set your desired background color */
-    border-radius: 30px;
-    margin-left: 30px;
-    margin-right: 20px;
-    border-style: solid;
-  }
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-/* Style the form elements within the .contact class */
+}
+
+.contact-container {
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 30px;
+    border: 2px solid black;
+    max-width: 400px;
+    
+}
+
 .contact form {
     display: flex;
     flex-direction: column;
@@ -25,12 +28,29 @@
 
 .contact form label {
     margin-bottom: 10px;
-    
 }
 
 .contact form input,
 .contact form textarea {
-    padding: 20px;
+    padding: 10px;
     margin-bottom: 10px;
     cursor: pointer;
+}
+
+.icon-space {
+    margin: 0 5px;
+}
+
+/* Media query for larger screens (e.g., desktop) */
+@media (min-width: 768px) {
+    .contact {
+        padding: 90px; /* Apply the desktop padding */
+        font-size: 35px; /* Apply the desktop font size */
+        max-width: 100%; /* Allow the .contact to expand to the full width */
+    }
+
+    .contact-container {
+        padding:100px;
+        max-width: 100%; /* Allow the .contact-container to expand to the full width */
+    }
 }
